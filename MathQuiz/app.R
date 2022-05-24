@@ -131,4 +131,6 @@ server <- function(input, output, session) {
   
 }
 
+print("Successfully push to github")
+
 shinyApp(ui = ui, server = server)
